@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>rank with Centered Text</title>
+  <style>
+    .NoOne {
+      position: relative;
+      display: inline-block;
+    }
+
+    .rank {
+      width: 60px;
+      height: 0;
+      border-top: 30px solid red;
+      border-right: 10px solid transparent;
+      text-align: center;
+    }
+
+    .rank-text {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      transform: translateY(-50%);
+      font-size: 14px;
+      /* font-weight: bold; */
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="NoOne">
+    <div class="rank">
+      <div class="rank-text">No.1</div>
+    </div>
+  </div>
+</body>
+</html>
